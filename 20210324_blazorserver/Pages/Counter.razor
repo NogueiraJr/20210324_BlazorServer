@@ -8,9 +8,19 @@
 
 @code {
     private int currentCount = 0;
+    private int numberExternal = 0;
 
     private void IncrementCount()
     {
         currentCount++;
+    }
+    publid int DecNumberExternal()
+    {
+        numberExternal += currentCount;
+        return numberExternal;
+    }
+    private void DecrementCount()
+    {
+        currentCount--;
     }
 }
